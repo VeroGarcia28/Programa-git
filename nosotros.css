@@ -1,0 +1,325 @@
+html,body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    
+    
+}
+
+.logodown {
+    display: block;
+    position: relative;
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: 7%;
+    left: -8%;
+}
+
+.volver{
+
+    position: absolute;
+    top: 50px;
+    background-color: bisque;
+    width: 4%;
+    height: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    left: 1%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.lineaazul {
+    background-color: rgb(145, 188, 229);
+    padding: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -5%;
+    
+    
+}
+.nosotros{
+    position: relative;
+    margin: 0%;
+    font-size: 300px;
+    margin-top: -6%;
+    left: 1%;
+    color: black;
+    font-weight: 350;
+
+}
+
+.quienessomos{
+    margin: 1%;
+    font-size: 150px;
+    margin-top: 3%;
+    color: rgb(56, 165, 42);
+    left: 10%;
+}
+
+.texto1{
+   margin: 1%;
+   width: 50%;
+   line-height: 1.9;
+   font-size: 5rem;
+   font-family: Arial, Helvetica, sans-serif;
+   left: 10%;
+
+}
+
+.imagen1{
+    position: relative;
+    display: block;
+    width: 45%;
+    height: auto;
+    margin-top: -38%;
+    left: 53%;
+    
+}
+
+.titulo1{
+    position: relative;
+    margin: 3%;
+    font-size: 150px;
+    margin-top: 7%;
+    color: rgb(165, 42, 144);
+    left: 25%;
+    
+}
+
+.frasemotivadora{
+   position: relative;
+   margin: 1%;
+   width: 50%;
+   line-height: 1.9;
+   font-size: 5rem;
+   font-family: Arial, Helvetica, sans-serif;
+   left: 27%;
+
+}
+
+.imagen2{
+    position: relative;
+    display: block;
+    width: 70%;
+    height: auto;
+    margin-top: 5%;
+    left: 10%;
+}
+
+.valores{
+    position: relative;
+    margin: 5%;
+    font-size: 350%;
+    margin-top: 8%;
+    color: rgb(42, 147, 165);
+    left: 2%;
+}
+.respeto{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: 45%;
+    color: rgb(189, 15, 198);
+    left: -40%;
+}
+
+.compromiso{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: -10%;
+    color: rgb(96, 239, 14);
+    left: -1%;
+
+}
+
+.equidad{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: -11%;
+    color: rgb(9, 231, 146);
+    left: 55%;
+}
+
+.solidaridad{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: -11%;
+    color: rgb(241, 59, 184);
+    left: 100%;
+}
+
+.tolerancia{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: 45%;
+    color: rgb(154, 41, 73);
+    left: -40%;
+}
+
+.igualdad{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: -10%;
+    color: rgb(13, 132, 223);
+    left: 5%;
+}
+
+.amor{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: -11%;
+    color: rgb(201, 20, 3);
+    left: 58%;
+
+}
+
+.empatia{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: -11%;
+    color: rgb(250, 242, 7);
+    left: 105%;
+}
+
+.imgrespeto{
+    position: absolute;
+    display: block;
+    display: block;
+    width: 30%;
+    height: auto;
+    top: 50%;
+    left: -44%;
+}
+
+.imgcompromiso{
+    position: absolute;
+    display: block;
+    display: block;
+    width: 27%;
+    height: auto;
+    top: 50%;
+    left: 2%;
+}
+
+.imgigualdad{
+    position: absolute;
+    display: block;
+    display: block;
+    width: 27%;
+    height: 16%;
+    top: 78%;
+    left: 2%;
+}
+
+.imgequidad{
+    position: absolute;
+    display: block;
+    display: block;
+    width: 27%;
+    height: 15%;
+    top: 50%;
+    left: 50%;
+}
+
+.imgsolidaridad{
+    position: absolute;
+    display: block;
+    display: block;
+    width: 27%;
+    height: 15%;
+    top: 50%;
+    left: 100%;
+}
+
+.imgtolerancia{
+    position: absolute;
+    display: block;
+    display: block;
+    width: 27%;
+    height: 15%;
+    top: 78%;
+    left: -44%;
+}
+
+.imgamor{
+    position: absolute;
+    display: block;
+    display: block;
+    width: 27%;
+    height: 15%;
+    top: 78%;
+    left: 52%;
+}
+
+.imgempatia{
+    position: absolute;
+    display: block;
+    display: block;
+    width: 27%;
+    height: 15%;
+    top: 78%;
+    left: 100%;
+}
+
+.franja {
+  background-color: rgb(145, 188, 229);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4%;
+  margin-top: 10%;
+  gap: 40px;
+
+}
+
+.bloque{
+  flex: 1;
+  text-align: center;
+}
+
+
+.logo-franja {
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 10%;
+  
+}
+
+
+
+.imagen-franja {
+  position: relative;
+  width: 50%;
+  height: auto;
+  left: 100%;
+ 
+  
+}
+
+.texto-franja{
+    position: relative;
+    color: rgb(19, 19, 19);
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.9;
+    left: -95%;
+
+}
+
+

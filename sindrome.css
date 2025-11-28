@@ -1,0 +1,321 @@
+html,body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    
+    
+}
+
+.logodown{
+    display: block;
+    position: relative;
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: 7%;
+    left: -8%;
+}
+
+.volver{
+
+    position: absolute;
+    top: 50px;
+    background-color: bisque;
+    width: 4%;
+    height: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    left: 1%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.lineaazul {
+    background-color: rgb(145, 188, 229);
+    padding: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -5%;
+}
+
+.sobre{
+    position: relative;
+    margin: 0%;
+    font-size: 300px;
+    margin-top: -6%;
+    left: 1%;
+    color: black;
+    font-weight: 350;
+}
+
+.quees{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: 3%;
+    color: rgb(56, 165, 42);
+    left: 1%;
+}
+
+.texto1{
+   position: relative;
+   margin: 1%;
+   width: 60%;
+   line-height: 1.9;
+   font-size: 5rem;
+   font-family: Arial, Helvetica, sans-serif;
+   left: 1%;
+}
+
+.img1{
+    position: relative;
+    display: block;
+    width: 22%;
+    height: auto;
+    margin-top: -25%;
+    left: 72%;
+}
+
+.causas{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: -3%;
+    color: rgb(56, 165, 42);
+    left: 1%;
+}
+
+.texto2{
+    position: relative;
+   margin: 1%;
+   width: 92%;
+   line-height: 1.9;
+   font-size: 5rem;
+   font-family: Arial, Helvetica, sans-serif;
+   left: 1%;
+   margin-top: 2%;
+}
+
+.desarrollo{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: 4%;
+    color: rgb(56, 165, 42);
+    left: 1%;
+}
+
+.texto3{
+   position: relative;
+   margin: 1%;
+   width: 92%;
+   line-height: 1.9;
+   font-size: 5rem;
+   font-family: Arial, Helvetica, sans-serif;
+   left: 1%;
+   margin-top: 2%;
+}
+
+.salud{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: 4%;
+    color: rgb(56, 165, 42);
+    left: 1%;
+}
+
+.texto4{
+   position: relative;
+   margin: 1%;
+   width: 92%;
+   line-height: 1.9;
+   font-size: 5rem;
+   font-family: Arial, Helvetica, sans-serif;
+   left: 1%;
+   margin-top: 2%;
+}
+
+.aprendizaje{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: 4%;
+    color: rgb(56, 165, 42);
+    left: 1%;
+}
+
+.texto5{
+   position: relative;
+   margin: 1%;
+   width: 92%;
+   line-height: 1.9;
+   font-size: 5rem;
+   font-family: Arial, Helvetica, sans-serif;
+   left: 1%;
+   margin-top: 2%;
+}
+
+.inclusion{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: 4%;
+    color: rgb(56, 165, 42);
+    left: 1%;
+}
+
+.texto6{
+   position: relative;
+   margin: 1%;
+   width: 92%;
+   line-height: 1.9;
+   font-size: 5rem;
+   font-family: Arial, Helvetica, sans-serif;
+   left: 1%;
+   margin-top: 2%;
+}
+
+.familia{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: 4%;
+    color: rgb(56, 165, 42);
+    left: 1%;
+}
+
+.texto7{
+   position: relative;
+   margin: 1%;
+   width: 92%;
+   line-height: 1.9;
+   font-size: 5rem;
+   font-family: Arial, Helvetica, sans-serif;
+   left: 1%;
+   margin-top: 2%;
+}
+
+.social{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: 4%;
+    color: rgb(56, 165, 42);
+    left: 1%;
+}
+
+.texto8{
+   position: relative;
+   margin: 1%;
+   width: 92%;
+   line-height: 1.9;
+   font-size: 5rem;
+   font-family: Arial, Helvetica, sans-serif;
+   left: 1%;
+   margin-top: 2%;
+}
+
+.derechos{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: 4%;
+    color: rgb(56, 165, 42);
+    left: 1%;
+}
+
+.texto9{
+   position: relative;
+   margin: 1%;
+   width: 92%;
+   line-height: 1.9;
+   font-size: 5rem;
+   font-family: Arial, Helvetica, sans-serif;
+   left: 1%;
+   margin-top: 2%;
+}
+
+.sabias{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: 4%;
+    color: rgb(56, 165, 42);
+    left: 1%;
+}
+
+.texto10{
+   position: relative;
+   margin: 1%;
+   width: 92%;
+   line-height: 1.9;
+   font-size: 5rem;
+   font-family: Arial, Helvetica, sans-serif;
+   left: 1%;
+   margin-top: 2%;
+}
+
+.final{
+    position: relative;
+    margin: 1%;
+    font-size: 150px;
+    margin-top: 4%;
+    color: rgb(56, 165, 42);
+    left: 1%;
+}
+
+.franja {
+  background-color: rgb(145, 188, 229);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4%;
+  margin-top: 10%;
+  gap: 40px;
+
+}
+
+.bloque{
+  flex: 1;
+  text-align: center;
+}
+
+
+.logo-franja {
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 10%;
+  
+}
+
+
+
+.imagen-franja {
+  position: relative;
+  width: 50%;
+  height: auto;
+  left: 100%;
+ 
+  
+}
+
+.texto-franja{
+    position: relative;
+    color: rgb(19, 19, 19);
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.9;
+    left: -95%;
+
+}
+
+
+

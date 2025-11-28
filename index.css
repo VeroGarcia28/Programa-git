@@ -1,0 +1,1352 @@
+html,body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    
+    
+}
+
+.logodown {
+    display: block;
+    width: 1800px;
+    height: auto;
+    margin: 10px;
+}
+
+.lineaazul {
+    background-color: rgb(145, 188, 229);
+    padding: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 7px;
+    
+    
+}
+
+
+.pagos {
+    background-image: url(/Botonpagos.jpg);
+    height: 250px;
+    width: 250px; 
+    position: absolute;
+    top: 650px;
+    left: 82%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer; 
+    border-radius: 300px;
+    border: 10px solid aliceblue;
+    z-index: 3;
+    
+}
+
+.imagencentral{
+    display: block;
+    margin: 0%auto;
+    width: 5000px;
+    height: auto;
+    
+}
+
+.donaciones{
+   background-image: url(/Botondonaciones.jpg);
+   height: 250px;
+    width: 250px; 
+    position: absolute;
+    top: 650px;
+    left: 89%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer; 
+    border-radius: 300px;
+    border: 10px solid aliceblue;
+    z-index: 3;
+    
+  
+}
+
+.inicio {
+      background-color: rgb(149, 107, 198);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 1px;
+    position: absolute;
+    top: 695px;     
+    left: 10%;
+    z-index: 2;   
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    cursor: pointer; 
+}
+.nosotros{
+    background-color: rgb(38, 233, 233);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 1px;
+    position: absolute;
+    top: 695px;     
+    left: 18%;
+    z-index: 2;    
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer; 
+   
+}
+.sindrome{
+    background-color: rgb(227, 233, 38);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 1px;
+    position: absolute;
+    top: 695px;     
+    left: 26%;
+    z-index: 2;    
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer; 
+}
+.programas{
+    background-color: rgb(249, 17, 145);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 1px;
+    position: absolute;
+    top: 695px;    
+    left: 41%;
+    z-index: 2;    
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px; cursor: pointer; 
+
+}
+
+
+.materialdeapoyo{
+    background-color: rgb(237, 123, 8);
+    border: 1px solid rgb(252, 252, 252);
+      border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 1px;
+    position: absolute;
+    top: 695px;     
+    left: 49%;
+    z-index: 2;    
+    width: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer; 
+}
+
+
+.plataformafamilia{
+    background-color: rgb(40, 184, 206);
+    border: 1px solid rgb(252, 252, 252);
+      border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 1px;
+    position: absolute;
+    top: 695px;    
+    left: 60%;
+    z-index: 2;    
+    width: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer; 
+
+}
+
+.contacto{
+    background-color: rgb(215, 70, 84);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 1px;
+    position: absolute;
+    top: 695px;     
+    left: 71%;
+    z-index: 2;    
+    width: 455px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer; 
+}
+
+
+
+.lineaazulmision{
+    background-color: rgb(145, 188, 229);
+    padding: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1px;
+    
+
+}
+.mision{
+    margin: 0;
+    font-size: 95px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parrafo1{
+   text-align: center;
+   width: 45%;
+   margin: 90px auto;
+   line-height: 1.8;
+   font-size: 65px;
+   font-family: Arial, Helvetica, sans-serif;
+   
+
+
+
+}
+
+
+.lineaazulvision{
+    background-color: rgb(145, 188, 229);
+    padding: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 300px;
+    
+
+
+}
+
+.vision{
+    margin: 0;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.parrafo2{
+   text-align: center;
+    width: 50%;  
+    margin: 90px auto;
+    line-height: 1.8;
+    font-size: 65px;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.nuestrosprogramasyservicios{
+    color: rgb(6, 132, 132);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200px;
+    margin-top: 450px;
+    text-align: center;
+    
+    
+}
+.parrafo3{
+     text-align: center;
+    width: 50%;  
+    margin: -150px auto 20px auto;
+    line-height: 1.6;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagencentral2{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 5000px;
+    height: auto;
+    top: 100px;
+    margin-bottom: 1500px;
+}
+
+
+
+.programa1{
+    padding: 100px;
+    width: 800px;
+    position: relative;
+    left: 10%;
+    border-radius: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(49, 150, 23);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.ingresoyapoyoparalasfamilias{
+   background-image: url(/apoyo\ para\ las\ familias.jpg);
+    background-size: cover;   
+    position: relative;
+    color: aliceblue;
+    width: 1000px;       
+    height: 1000px;      
+    display: flex;
+    align-items: center;    
+    justify-content: flex-end; 
+    flex-direction: column;  
+    padding-top: 100px;   
+    background-color: brown; 
+    border-radius: 50px;
+    margin-top: -1450px;
+    left: 10%;  
+
+}
+
+.programa2{
+    padding: 100px;
+    width: 800px;
+    position: relative;
+    left: 31%;
+    border-radius: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(237, 156, 7);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Apoyoalaprimerainfancia{
+    background-image: url(/apoyo\ a\ la\ primera\ infancia.jpg);
+    background-size: cover;   
+    position: relative;
+    color: aliceblue;
+    width: 1000px;       
+    height: 1000px;      
+    display: flex;
+    align-items: center;    
+    justify-content: flex-end; 
+    flex-direction: column; 
+    padding-bottom: 100px;   
+    background-color: brown; 
+    border-radius: 50px;
+    margin-top: -1450px;
+    left: 31%;
+    
+     
+}
+.programa3{
+    padding: 100px;
+    width: 800px;
+    position: relative;
+    left: 52%;
+    border-radius: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(237, 72, 7);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fisioterapia{
+    background-image: url(/fisioterapia.jpg);
+    background-size: cover;   
+    position: relative;
+    color: aliceblue;
+    width: 1000px;      
+    height: 990px;      
+    display: flex;
+    align-items: center;    
+    justify-content: flex-end; 
+    flex-direction: column;  
+    padding-bottom: 100px;   
+    background-color: brown; 
+    border-radius: 50px;
+    margin-top: -1440px;
+    left: 52%;
+}
+
+.programa4{
+      padding: 100px;
+    width: 800px;
+    position: relative;
+    left: 73%;
+    border-radius: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(237, 7, 130);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logopedia{
+    background-image: url(/Logopedia.jpg);
+    background-size: cover;   
+    position: relative;
+    color: aliceblue;
+    width: 1000px;       
+    height: 1000px;     
+    display: flex;
+    align-items: center;    
+    justify-content: flex-end; 
+    flex-direction: column; 
+    padding-bottom: 100px;    
+    background-color: brown; 
+    border-radius: 50px;
+    margin-top: -1450px;
+    left: 73%;
+}
+
+.programa5{
+    padding: 100px;
+    width: 800px;
+    position: relative;
+    left: 10%;
+    border-radius: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(237, 233, 7);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 1500px; 
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.estimulaciontemprana{
+    background-image: url(/estimulacion\ temprana.jpg);
+    background-size: cover;   
+    position: relative;
+    color: aliceblue;
+    width: 1000px;      
+    height: 1000px;      
+    display: flex;
+    align-items: center;     
+    justify-content: flex-end; 
+    flex-direction: column;  
+    padding-bottom: 100px;    
+    background-color: brown; 
+    border-radius: 50px;
+    margin-top: -1450px;
+    left: 10%;
+}
+
+.programa6{
+    padding: 100px;
+    width: 800px;
+    position: relative;
+    left: 3420px;
+    border-radius: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(222, 7, 237);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    left: 31%;
+    margin-top: 50px;
+     font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.entrenamientocognitivo{
+    background-image: url(/entrenamiento\ cognitivo.jpg);
+    background-size: cover;   
+    position: relative;
+    color: aliceblue;
+    width: 1000px;       
+    height: 1020px;      
+    display: flex;
+    align-items: center;    
+    justify-content: flex-end; 
+    flex-direction: column;  
+    padding-bottom: 100px;    
+    background-color: brown; 
+    border-radius: 50px;
+    margin-top: -1470px;
+    left: 31%;
+    
+}
+
+.programa7{
+    padding: 100px;
+    width: 800px;
+    position: relative;
+    left: 3420px;
+    border-radius: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(112, 235, 45);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    left: 52%;
+    margin-top: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+.motricidad{
+    background-image: url(/motricidad.jpg);
+    background-size: cover;   
+    position: relative;
+    color: aliceblue;
+    width: 1000px;      
+    height: 1020px;     
+    display: flex;
+    align-items: center;     
+    justify-content: flex-end; 
+    flex-direction: column;  
+    padding-bottom: 100px;   
+    background-color: brown; 
+    border-radius: 50px;
+    margin-top: -1470px;
+    left: 52%;
+
+}
+
+.programa8{
+     padding: 100px;
+    width: 800px;
+    position: relative;
+    left: 3420px;
+    border-radius: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(114, 213, 240);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    left: 73%;
+    margin-top: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.terapiaocupacional{
+    background-image: url(/Terapia\ ocupacional.jpg);
+    background-size: cover;   
+    position: relative;
+    color: aliceblue;
+    width: 1000px;      
+    height: 1020px;      
+    display: flex;
+    align-items:  center;     
+    justify-content: flex-end; 
+    flex-direction: column; 
+    padding-bottom: 100px;    
+    background-color: brown; 
+    border-radius: 50px;
+    margin-top: -1470px;
+    left: 73%;
+}
+
+.programa9{
+    padding: 100px;
+    width: 800px;
+    position: relative;
+    left: 3420px;
+    border-radius: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(237, 7, 7, 0.81);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    left: 10%;
+    margin-top: 1550px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.apoyoajovenes{
+     background-image: url(/apoyo\ a\ ajovenes.jpg);
+    background-size: cover;   
+    position: relative;
+    color: aliceblue;
+    width: 1000px;       
+    height: 1020px;     
+    display: flex;
+    align-items:  center;     
+    justify-content: flex-end;
+    flex-direction: column;  
+    padding-bottom: 100px;    
+    background-color: brown; 
+    border-radius: 50px;
+    margin-top: -1470px;
+    left: 10%;
+}
+
+.programa10{
+     padding: 100px;
+    width: 800px;
+    position: relative;
+    left: 3420px;
+    border-radius: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(73, 87, 157, 0.912);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    left: 31%;
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.proximoseventos{
+    background-image: url(/proximoseventos.jpg);
+    background-size: cover;   
+    position: relative;
+    color: aliceblue;
+    width: 1000px;       
+    height: 1020px;      
+    display: flex;
+    align-items:  center;   
+    justify-content: flex-end; 
+    flex-direction: column; 
+    padding-bottom: 100px;  
+    background-color: brown;
+    border-radius: 50px;
+    margin-top: -1470px;
+    left: 31%;
+}
+
+.programa11{
+     padding: 100px;
+    width: 800px;
+    position: relative;
+    left: 3420px;
+    border-radius: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(180, 121, 45);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    left: 52%;
+    margin-top: -16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.otrosservicios{
+     background-image: url(/otros\ servicios.jpg);
+    background-size: cover;   
+    position: relative;
+    color: aliceblue;
+    width: 1000px;       
+    height: 1020px;      
+    display: flex;
+    align-items:  center;     
+    justify-content: flex-end; 
+    flex-direction: column;  
+    padding-bottom: 100px;    
+    background-color: brown; 
+    border-radius: 50px;
+    margin-top: -1465px;
+    left: 52%;
+}
+
+.comoayudar{
+    color: rgb(73, 232, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200px;
+    margin-top: 680px;
+    text-align: center;
+}
+
+.parrafo4{
+    text-align: center;
+    width: 67%;  
+    margin: -270px auto 80px auto;
+    line-height: 1.6;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.donaconunsoloclic{
+    color: rgb(232, 24, 180);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+    margin-top: 290px;
+    text-align: left;   
+    margin-left: -440px;
+    
+}
+.imagendona{
+      background-image: url(/imagendona.jpg);
+    height: 250px;
+    width: 250px; 
+    position: absolute;
+    top: 570%;
+    left: 4%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 300px;
+    border: 10px solid aliceblue;
+    z-index: 3;
+    
+}
+
+
+.pagos-donaciones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+
+
+.boton2{
+    background-color: rgb(211, 245, 38);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 0%;
+    position: absolute;   
+    left: 5%;
+    z-index: 2;   
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer; 
+}
+
+
+
+.boton4{
+    background-color: rgb(106, 228, 234);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 0%;
+    position: absolute;
+    left: 15%;
+    z-index: 2;   
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    cursor: pointer; 
+}
+
+.boton5{
+    background-color: rgb(52, 239, 205);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 0%;
+    position: absolute;
+    left: 25%;
+    z-index: 2;   
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer; 
+}
+ 
+.boton6{
+    background-color: rgb(244, 244, 89);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 0%;
+    position: absolute;   
+    left: 35%;
+    z-index: 2;    
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer; 
+
+}
+
+
+
+
+.boton9{
+
+    background-color: rgb(249, 224, 81);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 2%;
+    position: absolute;
+    top: 600%;     
+    left: 5%;
+    z-index: 2;    
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer;  
+}
+
+
+
+.boton11{
+    background-color: rgb(35, 247, 141);
+    border: 1px solid rgb(247, 245, 243);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 2%;
+    position: absolute;
+    top: 600%;   
+    left: 15%;
+    z-index: 2;   
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer;  
+}
+
+.boton12{
+    background-color: rgb(251, 175, 175);
+    border: 1px solid rgb(249, 251, 248);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 2%;
+    position: absolute;
+    top: 600%;     
+    left: 25%;
+    z-index: 2;    
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer;  
+}
+
+.boton13{
+    background-color: rgb(186, 170, 244);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 2%;
+    position: absolute;
+    top: 600%;    
+    left: 35%;
+    z-index: 2;    
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer;  
+}
+
+
+.imagen1{
+   padding: 100px;
+    width: 800px;
+    position: relative;
+    left: 10%;
+    border-radius: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(49, 150, 23);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: 20%;
+    
+
+}
+
+.parrafo5{
+   padding: 100px;
+    width: 800px;
+    position: relative;
+    left: 10%;
+    border-radius: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(49, 150, 23);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: -01%;  
+    top: -051px;
+    
+
+    
+}
+
+
+.donacion{
+    background-image: url(/donacion\ mensual.jpg);
+    background-size: cover;   
+    position: relative;
+    color: aliceblue;
+    width: 1000px;       
+    height: 1000px;      
+    display: flex;
+    align-items: center;     
+    justify-content: flex-end; 
+    flex-direction: column;  
+    padding-top: 100px;    
+    background-color: brown; 
+    border-radius: 0px;
+    margin-top: -030px;
+    top: -052px;
+    left: 10%;
+
+}
+    
+
+.imagen2{
+     padding: 100px;
+    width: 800px;
+    position: relative;
+    left: 32%;
+    border-radius: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+     background-color: rgb(101, 187, 209);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: -030%;
+    height: 60px;
+
+}
+
+.parrafo6{
+     padding: 100px;
+    width: 800px;
+    position: relative;
+    left: 32%;
+    border-radius: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(101, 187, 209);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: -001%;  
+    top: -060%;
+}
+
+.regalo{
+    background-image: url(/regala\ un\ libro.jpg);
+    background-size: cover;   
+    position: relative;
+    color: aliceblue;
+    width: 1000px;       
+    height: 1008px;      
+    display: flex;
+    align-items: center;    
+    justify-content: flex-end; 
+    flex-direction: column; 
+    padding-top: 100px;    
+    background-color: brown; 
+    border-radius: 20px;
+    margin-top: -90px;
+    left: 32%;  
+
+}
+
+.imagen3{
+    padding: 100px;
+    width: 840px;
+    position: relative;
+    left: 54%;
+    border-radius: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+     background-color: rgb(237, 139, 204);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: -01700px;
+}
+
+.parrafo7{
+    padding: 72px;
+    width: 900px;
+    position: relative;
+    left: 54%;
+    border-radius: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(237, 139, 204);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: -49px;  
+    text-align: center;
+}
+
+.plan{
+    background-image: url(/plan\ padrino.jpg);
+    background-size: cover;   
+    position: relative;
+    color: aliceblue;
+    width: 1040px;       
+    height: 1008px;      
+    display: flex;
+    align-items: center;     
+    justify-content: flex-end; 
+    flex-direction: column; 
+    padding-top: 100px;    
+    background-color: brown; 
+    border-radius: 0px;
+    margin-top: -090px;
+    left: 54%;  
+}
+
+.imagen4{
+     padding: 100px;
+    width: 840px;
+    position: relative;
+    left: 77%;
+    border-radius: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(36, 243, 164);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: -01718px;
+}
+
+.fechas{
+   background-image: url(/fechas\ especiales.jpg);
+    background-size: cover;   
+    position: relative;
+    color: aliceblue;
+    width: 1040px;       
+    height: 1008px;     
+    display: flex;
+    align-items: center;     
+    justify-content: flex-end; 
+    flex-direction: column;  
+    padding-top: 100px;    
+    background-color: brown; 
+    border-radius: 0px;
+    margin-top: -090px;
+    left: 77%;  
+}
+
+.parrafo8{
+      padding: 72px;
+    width: 900px;
+    position: relative;
+    left: 77%;
+    border-radius: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(36, 243, 164);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: -49px;  
+    text-align: center;
+}
+
+.donar{
+    background-color: rgb(49, 150, 23);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 7%;
+    position: absolute;
+    top: 680%;    
+    left: 15%;
+    z-index: 2;    
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer; 
+
+}
+
+.conocemas{
+     background-color: rgb(101, 187, 209);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 7%;
+    position: absolute;
+    top: 680%;     
+    left: 37%;
+    z-index: 2;    
+    width: 420px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer; 
+
+}
+
+.quieroapadrinar{
+    background-color: rgb(237, 139, 204);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 7%;
+    position: absolute;
+    top: 680%;    
+    left: 58%;
+    z-index: 2;   
+    width: 520px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer; 
+
+
+}
+
+.celebrayayuda{
+    background-color: rgb(36, 243, 164);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 7%;
+    position: absolute;
+    top: 680%;     
+    left: 81%;
+    z-index: 2;   
+    width: 520px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer; 
+
+}
+
+.video-responsive {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+}
+
+.video-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 60%;
+  left: 20%;
+  margin-top: 15%;
+}
+
+.historia{
+    color: rgb(6, 132, 132);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.personasdown{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+  gap: 150px;                              
+  padding: 50px;
+  background-color: aliceblue;
+  justify-items: center;                  
+  margin-top: 5%;
+
+}
+
+.persona{
+  background-color: rgb(249, 251, 151);
+  border-radius: 90px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+  width: 100%;             
+  max-width: 70%;          
+  padding: 30px 60px;
+  text-align: center;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.persona:hover {
+  transform: scale(1.04);
+}
+
+.personaimg{
+  width: 60%;
+  height: 50%;             
+  object-fit: cover;
+  border-radius: 12px;
+  margin-top: 3%;
+}
+
+.persona p {
+  color: #292828;
+  font-size: 3rem;
+  line-height: 1.7;
+  text-align: left;
+  width: 95%;
+
+}
+
+.boton-link {
+    position: relative;
+    display: inline-block;
+    padding: 30px;
+    background-color: #4da3ff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 45px;
+    transition: background-color 0.3s;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 5%;
+}
+
+.boton-link:hover {
+    background-color: #1f7fe0;
+}
+
+
+.franja {
+  background-color: rgb(145, 188, 229);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4%;
+  margin-top: 10%;
+  gap: 40px;
+
+}
+
+.bloque{
+  flex: 1;
+  text-align: center;
+}
+
+
+.logo-franja {
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 10%;
+  
+}
+
+
+
+.imagen-franja {
+  position: relative;
+  width: 50%;
+  height: auto;
+  left: 100%;
+ 
+  
+}
+
+.texto-franja{
+    position: relative;
+    color: rgb(19, 19, 19);
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.9;
+    left: -95%;
+
+}
+
+

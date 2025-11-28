@@ -1,0 +1,239 @@
+html,body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    
+}
+
+.volver{
+    position: absolute;
+    top: 50px;
+    background-color: bisque;
+    width: 4%;
+    height: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    left: 1%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.lineaazul {
+    position: relative;
+    background-color: rgb(145, 188, 229);
+    padding: 3%;
+    margin-top: 10%;
+
+}
+
+.medios{
+    position: absolute;
+    margin: 0%;
+    font-size: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -3%;
+    left: 2%;
+    color: black;
+    font-weight: 350;
+
+}
+
+
+
+.logo {
+    position: relative;
+    height: 50%;
+    display: block;
+    width: 50%;
+    left: 20%;
+
+}
+
+
+
+
+.contenedor {
+    position: relative;
+    background: white;
+    width: 90%;
+    max-width: 40%;
+    margin: 10% auto;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+}
+
+
+.barra-titulo {
+    background: #f1f3f4;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 3rem;
+    border-radius: 6px;
+    
+}
+
+
+.detalle-total {
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 0;
+    font-size: 3rem;
+}
+
+.puntos {
+    flex: 1;
+    margin: 0 8px;
+    border-bottom: 1px dotted #777;
+}
+
+#mostrarMonto {
+    font-size: 3rem;
+    color: #000;
+}
+
+
+.barra-titulo {
+    font-size: 3rem;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+
+.numero {
+     background: #3692b1;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 50%;
+    font-size: 3rem;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 10px;
+    font-size: 3rem;
+    padding-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario label {
+    font-weight: 600;
+}
+
+.formulario input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 3rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.btn-continuar {
+    position: relative;
+    background: #85c4f8;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 3rem;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 70px;
+    width: 20%;
+    transition: 0.2s;
+    align-self: center;
+    
+}
+
+.btn-continuar:hover {
+    background: #3692b1;
+}
+
+
+.contenedor2{
+    position: relative;
+    background: white;
+    width: 50%;
+    max-width: 30%;
+    margin: 10% auto;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detalle{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 3rem;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 5%;
+    width: 100%;
+}
+
+.franja {
+  background-color: rgb(145, 188, 229);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4%;
+  margin-top: 0%;
+  gap: 40px;
+
+}
+
+.bloque{
+  flex: 1;
+  text-align: center;
+}
+
+
+.logo-franja {
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 10%;
+  
+}
+
+
+
+.imagen-franja {
+  position: relative;
+  width: 50%;
+  height: auto;
+  left: 100%;
+ 
+  
+}
+
+.texto-franja{
+    position: relative;
+    color: rgb(19, 19, 19);
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.9;
+    left: -95%;
+
+}
+
