@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donaciones</title>
+    <link rel="shortcut icon" href="Logodown.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="donaciones.css">
+</head>
+<body>
+
+    
+
+    <button type="button" class="volver">Inicio</button>   
+
+    <div class="lineaazul">
+    <h3 class="medios">Donaciones</h3>
+    </div>
+    
+
+    
+
+     <div class="wrapper">
+    <div class="contenedor">
+    <img src="Logodown.jpg" alt="Fundación Down Sin Barreras" class="logo">
+       
+        <div class="barra-titulo"><span class="numero">1</span>Tus datos</div>
+
+        <div class="formulario">
+
+            <label>Nombre completo *</label>
+            <input type="text" id="nombre" placeholder="Nombres y apellidos" />
+
+            <label>Correo electrónico *</label>
+            <input type="email" id="correo" placeholder="ejemplo@gmail.com" />
+
+            <button class="btn-continuar">Continuar →</button>
+
+        </div>
+
+        
+        <div class="barra-titulo"><span class="numero">2</span> Selecciona el medio de pago</div>
+
+    </div>
+
+
+    <div class="contenedor2">
+
+        <div class="barra-titulo">Resumen de la compra</div>
+
+        <div class="detalle">
+        <span>Referencia:</span>
+        <span id="referencia"></span>
+        </div>
+        
+
+        <div class="detalle">
+        <span>Descripción:</span>
+        <span id="descripcion"></span>
+    </div>
+
+
+    <div class="detalle">
+        <span>IVA</span>
+        <span class="puntos"></span>
+        <span id="iva">$0.00</span>
+    </div>
+
+
+        <div class="detalle-total">
+            <span>Total a pagar</span>
+            <span class="puntos"></span>
+            <strong id="mostrarMonto"></strong>
+        </div>
+
+</div>
+</div>
+
+<script>
+
+    const parametros = new URLSearchParams(window.location.search);
+    const monto = parametros.get("monto");
+
+  
+    document.getElementById("mostrarMonto").textContent = "$" + new Intl.NumberFormat().format(monto);
+
+</script>
+
+
+<section class="franja">
+
+<div class="bloque">
+<img src="imglogo.jpeg" alt="" class="logo-franja">
+</div>
+
+<div class="bloque">
+<img src="imgfranja.jpeg" alt="" class="imagen-franja">  
+</div>
+
+<div class="bloque">
+ <div class="texto-franja">
+   <h2>Contacto</h2>
+    <div class="info">
+      <p> Direccion: Cra.3#14C-10, Puerto Colombia </p>
+    </div>
+  </div>
+
+  <div class="bloque">
+    <div class="texto-franja">
+      <p> Email: downsinbarreras@gmail.com </p>
+    </div>
+  </div>
+
+  <div class="bloque">
+    <div class="texto-franja">
+      <p> Telefono: +57 3014496309 </p>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+</body>
+<script src="botones.js"></script>
+</html>

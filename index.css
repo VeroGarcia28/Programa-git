@@ -1,0 +1,760 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    
+    
+}
+
+.logodown {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: 10px;
+}
+
+.lineaazul {
+    background-color: rgb(145, 188, 229);
+    padding: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 7px;
+    
+    
+}
+
+
+.pagos {
+    background-image: url(/Botonpagos.jpg);
+    height: 250px;
+    width: 250px; 
+    position: absolute;
+    top: 650px;
+    left: 82%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer; 
+    border-radius: 300px;
+    border: 10px solid aliceblue;
+    z-index: 3;
+    
+}
+
+.imagencentral{
+    display: block;
+    margin: 0%auto;
+    width: 80%;
+    height: auto;
+    
+}
+
+.donaciones{
+   background-image: url(/Botondonaciones.jpg);
+   height: 250px;
+    width: 250px; 
+    position: absolute;
+    top: 650px;
+    left: 89%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer; 
+    border-radius: 300px;
+    border: 10px solid aliceblue;
+    z-index: 3;
+    
+  
+}
+
+.inicio {
+    background-color: rgb(149, 107, 198);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 5%;
+    margin-bottom: 25px;
+    margin-top: 1px;
+    position: absolute;
+    top: 24%;     
+    left: 10%;
+    z-index: 2;   
+    width: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  4rem;
+    cursor: pointer; 
+}
+.nosotros{
+    background-color: rgb(38, 233, 233);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 5%;
+    margin-bottom: 25px;
+    margin-top: 1px;
+    position: absolute;
+    top: 24%;     
+    left: 18%;
+    z-index: 2;    
+    width: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  4rem;
+     cursor: pointer; 
+   
+}
+.sindrome{
+    background-color: rgb(227, 233, 38);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 5%;
+    margin-bottom: 25px;
+    margin-top: 1px;
+    position: absolute;
+    top: 24%;     
+    left: 26%;
+    z-index: 2;    
+    width: 14%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  4rem;
+     cursor: pointer; 
+}
+.programas{
+    background-color: rgb(249, 17, 145);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 5%;
+    margin-bottom: 25px;
+    margin-top: 1px;
+    position: absolute;
+    top: 24%;    
+    left: 41%;
+    z-index: 2;    
+    width: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  4rem; cursor: pointer; 
+
+}
+
+
+.materialdeapoyo{
+    background-color: rgb(237, 123, 8);
+    border: 1px solid rgb(252, 252, 252);
+      border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 5%;
+    margin-bottom: 25px;
+    margin-top: 1px;
+    position: absolute;
+    top: 24%;     
+    left: 49%;
+    z-index: 2;    
+    width: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+     cursor: pointer; 
+}
+
+
+.plataformafamilia{
+    background-color: rgb(40, 184, 206);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 5%;
+    margin-bottom: 25px;
+    margin-top: 1px;
+    position: absolute;
+    top: 24%;    
+    left: 60%;
+    z-index: 2;    
+    width: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  4rem;
+    cursor: pointer; 
+
+}
+
+.contacto{
+    background-color: rgb(215, 70, 84);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 5%;
+    margin-bottom: 25px;
+    margin-top: 1px;
+    position: absolute;
+    top: 24%;     
+    left: 71%;
+    z-index: 2;    
+    width: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+     cursor: pointer; 
+}
+
+
+
+.lineaazulmision{
+    background-color: rgb(145, 188, 229);
+    padding: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1px;
+}
+
+.mision{
+    margin: 0;
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafo1{
+   text-align: center;
+   max-width: 40%;
+   margin: 4% auto;
+   line-height: 1.8;
+   font-size: 4rem;
+   font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+.lineaazulvision{
+    background-color: rgb(145, 188, 229);
+    padding: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+    
+}
+
+.vision{
+    margin: 0;
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.parrafo2{
+    text-align: center;
+    max-width: 40%;
+    margin: 2% auto;
+    line-height: 1.8;
+    font-size: 4rem;
+     font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.nuestrosprogramasyservicios{
+    color: rgb(6, 132, 132);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15rem;
+    margin-top: 450px;
+    text-align: center;
+    
+    
+}
+.parrafo3{
+    text-align: center;
+    max-width: 38%;  
+    margin: -150px auto 20px auto;
+    line-height: 1.8;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagencentral2{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    top: 100px;
+    margin-bottom: 1500px;
+}
+
+
+.contenedor-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 120px;
+    padding: 20px;
+    justify-items: center;
+    margin-top: -17%;
+}
+
+.card {
+    width: 70%;
+    border-radius: 20px;
+    overflow: hidden;
+    background: none;
+    box-shadow: 0px 5px 12px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.card img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+.titulo {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 70px;
+    font-size: 4rem;
+    margin: 0;
+    border: none;
+    display: block;
+}
+
+.verde { background-color: #1FA447; }
+.naranja { background-color: #FF9F1C; }
+.rojo { background-color: #E8503A; }
+.rosado { background-color: #D65089; }
+.amarillo { background-color: #2b95aa; }
+.morado { background-color: #9A4DFF; }
+.verde2 { background-color: #26ec7f; }
+.azul { background-color: #aba2e8; }
+.sapote {background-color: #E8503A;}
+.marron { background-color: #905932;}
+.amarillo2{ background-color: #c93eab;}
+
+
+
+
+.comoayudar{
+    color: rgb(73, 232, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.parrafo4{
+    text-align: center;
+    width: 67%;  
+    margin: -270px auto 80px auto;
+    line-height: 1.6;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.donaconunsoloclic{
+    color: rgb(232, 24, 180);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10rem;
+    margin-top: 290px;
+    text-align: left;   
+    margin-left: -440px;
+    
+}
+.imagendona{
+    background-image: url(/imagendona.jpg);
+    height: 10%;
+    width: 5%; 
+    position: absolute;
+    margin-top: -9%;
+    left: 4%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 300px;
+    border: 10px solid aliceblue;
+    z-index: 3;
+    
+}
+
+
+.pagos-donaciones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+
+
+.boton2{
+    background-color: rgb(211, 245, 38);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 0%;
+    position: absolute;   
+    left: 5%;
+    z-index: 2;   
+    width: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer; 
+}
+
+
+
+.boton4{
+    background-color: rgb(106, 228, 234);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 0%;
+    position: absolute;
+    left: 15%;
+    z-index: 2;   
+    width: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    cursor: pointer; 
+}
+
+.boton5{
+    background-color: rgb(52, 239, 205);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 0%;
+    position: absolute;
+    left: 25%;
+    z-index: 2;   
+    width: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer; 
+}
+ 
+.boton6{
+    background-color: rgb(244, 244, 89);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 5%;
+    position: absolute;   
+    left: 35%;
+    z-index: 2;    
+    width: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer; 
+
+}
+
+
+
+
+.boton9{
+
+    background-color: rgb(249, 224, 81);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 7%;
+    position: absolute;
+    top: 600%;     
+    left: 5%;
+    z-index: 2;    
+    width: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer;  
+}
+
+
+
+.boton11{
+    background-color: rgb(35, 247, 141);
+    border: 1px solid rgb(247, 245, 243);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 7%;
+    position: absolute;
+    top: 600%;   
+    left: 15%;
+    z-index: 2;   
+    width: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer;  
+}
+
+.boton12{
+    background-color: rgb(251, 175, 175);
+    border: 1px solid rgb(249, 251, 248);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 7%;
+    position: absolute;
+    top: 600%;     
+    left: 25%;
+    z-index: 2;    
+    width: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer;  
+}
+
+.boton13{
+    background-color: rgb(186, 170, 244);
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 80px;
+    display: block;
+    padding: 14px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 2%;
+    position: absolute;
+    top: 600%;    
+    left: 35%;
+    z-index: 2;    
+    width: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+     cursor: pointer;  
+}
+
+.contenedor-tarjetas-donaciones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 40px;
+    justify-items: center;
+    width: 100%;
+    margin: 0;
+    margin-top: 20%;
+}
+
+.card-donacion {
+    width: 150%;
+    max-width: 80%;
+    height: 100%;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+    text-align: center;
+    padding: 0;
+}
+
+.titulo-don {
+    font-weight: bold;
+    padding: 70px;
+    color: white;
+    font-size: 4rem;
+}
+
+.card-donacion img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.texto-don {
+    padding: 15px;
+    font-size: 4rem;
+    color: #444;
+}
+
+.boton-don {
+    border: none;
+    padding: 10px 20px;
+    margin: 15px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.verde { background-color: #1FA447; }
+.azul { background-color: #2b95aa; }
+.rosado { background-color: #D65089; }
+.verde2 { background-color: #26ec7f; }
+
+
+
+.video-responsive {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+}
+
+.video-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 60%;
+  left: 20%;
+  margin-top: 15%;
+}
+
+.historia{
+    color: rgb(6, 132, 132);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.personasdown{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+  gap: 150px;                              
+  padding: 50px;
+  background-color: aliceblue;
+  justify-items: center;                  
+  margin-top: 5%;
+
+}
+
+.persona{
+  background-color: rgb(249, 251, 151);
+  border-radius: 90px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+  width: 100%;             
+  max-width: 70%;          
+  padding: 30px 60px;
+  text-align: center;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.persona:hover {
+  transform: scale(1.04);
+}
+
+.personaimg{
+  width: 60%;
+  height: 50%;             
+  object-fit: cover;
+  border-radius: 12px;
+  margin-top: 3%;
+}
+
+.persona p {
+  color: #292828;
+  font-size: 3rem;
+  line-height: 1.7;
+  text-align: left;
+  width: 95%;
+
+}
+
+.boton-link {
+    position: relative;
+    display: inline-block;
+    padding: 30px;
+    background-color: #4da3ff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 45px;
+    transition: background-color 0.3s;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 5%;
+}
+
+.boton-link:hover {
+    background-color: #1f7fe0;
+}
+
+
+.franja {
+  background-color: rgb(145, 188, 229);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4%;
+  margin-top: 10%;
+  gap: 40px;
+
+}
+
+.bloque{
+  flex: 1;
+  text-align: center;
+}
+
+
+.logo-franja {
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 10%;
+  
+}
+
+
+
+.imagen-franja {
+  position: relative;
+  width: 50%;
+  height: auto;
+  left: 100%;
+ 
+  
+}
+
+.texto-franja{
+    position: relative;
+    color: rgb(19, 19, 19);
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.9;
+    left: -95%;
+
+}
+
+
