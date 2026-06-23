@@ -71,10 +71,11 @@ html,body {
 .imagen1{
     position: relative;
     display: block;
+    margin: auto;
     width: 40%;
     left: 26%;
     height: 60%;
-    top: -100px;
+    margin-top: -32%;
    
     
 }
