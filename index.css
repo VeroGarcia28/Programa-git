@@ -118,7 +118,7 @@ html,body {
 }
 
 .donaciones{
-    background-image: url(/Botondonaciones.jpg);
+    background-image: url(Botondonaciones.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -134,7 +134,7 @@ html,body {
 
 
 .pagos{
-    background-image: url(/Botonpagos.jpg);
+    background-image: url(Botonpagos.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
