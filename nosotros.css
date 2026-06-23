@@ -69,14 +69,15 @@ html,body {
 }
 
 .imagen1{
+    position: relative;
     display: block;
     margin: auto;
-    width: 25%;
-    left: 10%;
+    width: 40%;
+    left: 26%;
     height: 60%;
-    margin-top: -12%;
-    margin-left: 68%;
-  
+    margin-top: -32%;
+   
+    
 }
 
 .titulo1{
