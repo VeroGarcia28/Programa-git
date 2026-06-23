@@ -2,14 +2,12 @@ html,body {
     
     margin: 0;
     padding: 0;
-    background-color: aliceblue;
+    background-color: white;
     background-repeat: no-repeat;
     overflow-x: hidden;
     
     
 }
-
-
 
 .volver{
     position: absolute;
@@ -18,27 +16,27 @@ html,body {
     width: 4%;
     height: 4%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    left: 1%;
+    font-size: 1rem;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: 0.3s;
+    margin-top: -2%;
+    left: 1%;
 }
 
 .lineaazul {
     background-color: rgb(145, 188, 229);
     padding: 3%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 9%;
+    margin-top: 8%;
 }
 
 .contacto{
     position: absolute;
     margin: 0%;
-    font-size: 300px;
-    margin-top: -6%;
-    left: 2%;
+    font-size: 4rem;
+    margin-top: -5%;
+    left: 1%;
     color: black;
     font-weight: 350;
 }
@@ -52,7 +50,7 @@ html,body {
 .contactanos{
     position: absolute;
     margin: 0%;
-    font-size: 300px;
+    font-size: 4rem;
     margin-top: 2%;
     left: 3%;
     color: rgb(145, 188, 229);
@@ -80,7 +78,7 @@ html,body {
 }
 
 .fila .info {
-  font-size: 5rem;
+  font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
   left: 5%;
 }
@@ -88,64 +86,70 @@ html,body {
 .Escribenos{
     position: absolute;
     margin: 0%;
-    font-size: 300px;
-    margin-top: -22%;
+    font-size: 4rem;
+    margin-top: -25%;
     left: 63%;
     color: rgb(145, 188, 229);
     font-weight: 350;
 }
 
+
 .caja {
-    position: relative;
-    background: rgba(255, 255, 255, 0.92);
-    width: 30%;
-    padding: 30px;
-    border-radius: 12px;
+    background: #ffffff;
+    width: 95%;             
+    max-width: 500px;           
+    padding: 10px;
+    border-radius: 10px;
     text-align: center;
-    box-shadow: 0 0 18px rgba(0,0,0,0.25);
-    margin-top: -15%;
-    left: 60%;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    margin: 20px auto;         
+    margin-left: 56%;
+    margin-top: -18%;
+}
+
+.logo {
+    width: 160px;
+    margin-bottom: 20px;
 }
 
 .contenedor {
-    width: 80%;
-    padding: 12px;
-    margin: 15px 0;
-    border-radius: 6px;
-    border: 1px solid #131313;
-    font-size: 3rem;
-    font-family: 'Times New Roman', Times, serif;
-
+    width: 90%;
+    padding: 10px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: 1px solid #bbb;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
 }
 
 .mensaje {
-    width: 80%;
-    height: 450px;        
-    padding: 12px;
-    margin: 15px 0;
-    border-radius: 6px;
-    border: 1px solid #131313;
-    font-size: 3rem;
-    resize: none;         
-    font-family: 'Times New Roman', Times, serif;
+    width: 90%;
+    height: 150px;         
+    padding: 10px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: 1px solid #bbb;
+    font-size: 1rem;
+    resize: none;
+    font-family: Arial, sans-serif;
 }
 
 .boton {
-    position: relative;
-    width: 20%;
+    width: 30%;
     background-color: #15df12;
-    padding: 8px;
-    margin-top: 8%;
+    padding: 10px;
     border: none;
-    border-radius: 6px;
+    border-radius: 8px;
     color: white;
-    font-size: 3rem;
+    font-size: 1rem;
     cursor: pointer;
 }
 
-.btn:hover {
-    background-color: #5fb811;
+.boton:hover {
+    background-color: #12c40f;
 }
+
+
 
 .franja {
   background-color: rgb(145, 188, 229);
@@ -178,7 +182,7 @@ html,body {
   position: relative;
   width: 50%;
   height: auto;
-  left: 100%;
+  left: 103%;
  
   
 }
@@ -186,11 +190,11 @@ html,body {
 .texto-franja{
     position: relative;
     color: rgb(19, 19, 19);
-    font-size: 4rem;
+    font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
-    line-height: 1.9;
+    line-height: 1.8;
     left: -95%;
 
 }

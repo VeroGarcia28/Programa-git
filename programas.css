@@ -1,22 +1,21 @@
 html,body {
-    
     margin: 0;
     padding: 0;
-    background-color: aliceblue;
+    background-color: white;
     background-repeat: no-repeat;
     overflow-x: hidden;
     
     
 }
 
+
 .logodown {
-    display: block;
-    position: relative;
-    display: block;
-    width: 30%;
-    height: auto;
-    margin: 7%;
-    left: -8%;
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    height: 80px;
+    margin-top: 8%;
+    
 }
 
 .volver{
@@ -26,29 +25,28 @@ html,body {
     width: 4%;
     height: 4%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    left: 1%;
+    font-size: 1rem;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: 0.3s;
+    margin-top: -2%;
+    left: 1%;
 }
 
 .lineaazul {
-    position: relative;
     background-color: rgb(145, 188, 229);
     padding: 3%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: -5%;
-    
+    margin-top: 0%;
 }
+
 
 .titulo{
     position: absolute;
     margin: 0%;
-    font-size: 300px;
-    margin-top: -6%;
-    left: 2%;
+    font-size: 4rem;
+    margin-top: -5%;
+    left: 1%;
     color: black;
     font-weight: 350;
 }
@@ -57,43 +55,60 @@ html,body {
    position: relative;
    margin: 2%;
    width: 50%;
-   line-height: 1.9;
-   font-size: 5rem;
+   line-height: 1.8;
+   font-size: 1.5rem;
    font-family: Arial, Helvetica, sans-serif;
-   left: 1%;
+   text-align: justify;
+   left: -10px;
+   
 }
 
 .img1{
-    position: relative;
     display: block;
-    width: 30%;
-    height: auto;
-    margin-top: -15%;
-    left: 59%;
+    margin: auto;
+    width: 25%;
+    left: 10%;
+    height: 60%;
+    margin-top: -12%;
+    margin-left: 68%;
 }
 
+
+.conoce{
+   position: relative;
+    margin: 3%;
+    font-size: 4rem;
+    margin-top: 5%;
+    color: rgb(83, 139, 149);
+    left: 10%;
+    font-style: italic;
+   
+
+}
 
 .programas {
   display: grid;
   grid-template-columns: repeat(3, 1fr);  
-  gap: 150px;                              
-  padding: 60px;
-  background-color: aliceblue;
+  gap: 100px;                              
+  padding: 100px;
+  background-color: white;
   justify-items: center;                  
-  margin-top: 7%;
+  margin-top: -3%;
+
 }
 
 
 .programa {
-  background-color: white;
+  background-color: rgb(210, 224, 225);
   border-radius: 16px;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
-  width: 100%;             
-  max-width: 70%;          
-  padding: 40px 60px;
-  text-align: center;
-  font-size: 3rem;
+  width: 70%;             
+  max-width: 100%;          
+  padding: 30px 60px;
+  text-align: left;
+  font-size: 1.5rem;
   transition: transform 0.3s ease;
+  
 }
 
 .programa:hover {
@@ -102,25 +117,29 @@ html,body {
 
 .programa img {
   width: 100%;
-  height: 50%;             
+  height: 40%;             
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 10px;
   margin-top: 8%;
 }
 
 
 .programa h3 {
   color: #0077b6;
-  font-size: 5rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-top: 15%;
+  
 }
 
 
 .programa p {
-  color: #292828;
-  font-size: 5rem;
-  line-height: 1.9;
+  color: #131212;
+  font-size: 1rem;
+  line-height: 1.8;
+  text-align: left;
+  text-align: justify;
+  
 }
 
 
@@ -130,7 +149,7 @@ html,body {
   justify-content: space-between;
   align-items: center;
   padding: 4%;
-  margin-top: 10%;
+  margin-top: 7%;
   gap: 40px;
 
 }
@@ -155,7 +174,7 @@ html,body {
   position: relative;
   width: 50%;
   height: auto;
-  left: 100%;
+  left: 103%;
  
   
 }
@@ -163,11 +182,11 @@ html,body {
 .texto-franja{
     position: relative;
     color: rgb(19, 19, 19);
-    font-size: 4rem;
+    font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
-    line-height: 1.9;
+    line-height: 1.8;
     left: -95%;
 
 }
