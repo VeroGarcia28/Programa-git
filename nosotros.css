@@ -69,13 +69,12 @@ html,body {
 }
 
 .imagen1{
-  position: absolute;
     display: block;
     margin: auto;
     width: 40%;
     left: 10%;
     height: 60%;
-    margin-top: -50%;
+    margin-top: -45%;
     margin-left: 56%;
    
 }
