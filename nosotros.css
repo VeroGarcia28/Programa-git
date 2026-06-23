@@ -69,13 +69,14 @@ html,body {
 }
 
 .imagen1{
+    position: relative;
     display: block;
     margin: auto;
     width: 40%;
-    left: 10%;
+    left: 26%;
     height: 60%;
-    margin-top: -29%;
-    margin-left: 56%;
+    margin-top: -35%;
+   
     
 }
 
